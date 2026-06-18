@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LIK Resin Art</title>
+</head>
+<body style="margin:0;background:black;">
+
+<video id="video" autoplay muted playsinline style="width:100%;height:100vh;object-fit:cover;">
+<source src="intro.mp4" type="video/mp4">
+</video>
+
+<script>
+document.getElementById("video").addEventListener("ended", function() {
+window.location.href = "order.html";
+});
+</script>
+
+</body>
+</html>
